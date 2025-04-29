@@ -260,6 +260,10 @@ h2 {
     padding-bottom: 20px;
 }
 
+.team .social .icon{
+    fill: #4D5AE5;
+}
+
 /* Section 3 */
 .section-3 {
     background-color: #f4f4fd;
