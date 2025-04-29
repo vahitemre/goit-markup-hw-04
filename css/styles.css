@@ -112,10 +112,19 @@ nav {
 /* Hero Image */
 .heroimage {
     background-color: #2e2f42;
+    background-image: linear-gradient(
+        to bottom,
+        #2e2f42b3,
+        #2e2f42b3
+        ),
+        url('../images/people-office.jpg');
+    background-size: cover;
+    background-position: center;
     color: #fff;
     text-align: center;
-    padding: 120px 0;
+    padding: 188px 0;
     width: 1440px;
+    height: 600px;
     margin: 0 auto;
 }
 
@@ -158,6 +167,11 @@ nav {
     margin: 0 auto;
 }
 
+.features .icon {
+    fill: #2E2F42;
+    background-color: #f4f4fd;
+}
+
 .features li {
     max-width: 264px;
 }
@@ -194,12 +208,20 @@ h2 {
     display: flex;
     justify-content: center;
     gap: 24px;
+    
 }
 
 .team li {
     background-color: #fff;
     text-align: center;
     width: 264px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    box-shadow:
+    0px 1px 6px 0px #2e2f4214,
+    0px 1px 1px 0px #2e2f4229,
+    0px 2px 1px 0px #2e2f4214;
+    
 }
 
 
@@ -241,11 +263,18 @@ h2 {
 
 .portfolio li {
     background-color: #fff;
-    
-    padding-bottom: 20px;
     width: calc(33.333% - 16px);
     max-width: 360px;
     max-height: 420px;
+}
+
+.portfolio li:hover,
+.portfolio li:focus{
+    box-shadow: 
+    0px 1px 6px 0px #2e2f4214,
+    0px 1px 1px 0px #2e2f4229,
+    0px 2px 1px 0px #2e2f4214;
+    
 }
 
 .portfolio img {
@@ -274,6 +303,7 @@ h2 {
     border-left: 1px solid #E7E9FC;
     border-right: 1px solid #E7E9FC;
     border-bottom: 1px solid #E7E9FC;
+    
 }
 
 /* Footer */
