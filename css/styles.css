@@ -168,15 +168,24 @@ nav {
     text-align: center;
 }
 
+.features .icon-background{
+    display: flex;
+    width: 264px;
+    height: 112px;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    background-color: #f4f4fd;
+    align-items: center;
+    justify-content: center;
+
+}
+
 .features .icon {
     fill: #2E2F42;
-    background-color: #f4f4fd;
     text-align: center;
     width: 64px;
     height: 64px;
-    border: 1px solid #8E8F99;
-    border-radius: 4px;
-    padding: 55px 132px;
+
 }
 
 .features li {
