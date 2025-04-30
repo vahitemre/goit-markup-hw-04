@@ -258,10 +258,13 @@ h2 {
 
 .team .social{
     padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .team .social .icon{
     fill: #4D5AE5;
+    display: flex;
 }
 
 /* Section 3 */
